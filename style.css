@@ -1,0 +1,61 @@
+body{
+    font-family: Helvetica,Arial,sans-serif;
+    width: 960px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#title{
+    color: #fdd;
+}
+#title span{
+    color: #f99;
+}
+
+.block{
+    border: 30px solid #fee;
+    padding: 15px;
+    margin: 15px auto;
+    width: 400px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+#results .block div{
+    font-size: 200%;
+    font-weight: bold;
+    background: #f66;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 14px 10px;
+    background: #f66 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f66), to(#f22));
+    border: 2px solid #f11;
+}
+
+a.button,
+button{
+    margin: 10px;
+    background: #f66;
+    background: #f22 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f66), to(#f22));
+    border: 2px solid #f11;
+    padding: 10px;
+    font-weight: bold;
+    color: #fee;
+    cursor: pointer;
+    font-size: 120%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+input{
+    border: 1px solid #999;
+    font-size: 120%;
+    font-weight: bold;
+    color: #555;
+    padding: .5ex;
+    background: #fff -webkit-gradient(linear, 0% 0%, 0% 75%, from(#eee), to(#fff));
+}

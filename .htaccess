@@ -1,0 +1,5 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /
+RewriteRule ^u/(.*)\+(.*)$ twollo/index.php?user=$1&other=$2
+RewriteRule ^u/(.*)$ twollo/index.php?user=$1
