@@ -1,9 +1,9 @@
 {include file='header.tpl'}
 
 <h1 id="title">
-  <span><a href="http://twitter.com/{$smarty.get.user}" target="_blank">{$smarty.get.user}</a></span>
+  <span><a href="{$smarty.get.user}">{$smarty.get.user}</a></span>
   &amp;
-  <span><a href="http://twitter.com/{$smarty.get.other}" target="_blank">{$smarty.get.other}</a></span>
+  <span><a href="{$smarty.get.other}">{$smarty.get.other}</a></span>
 </h1>
 
 <div id="results">

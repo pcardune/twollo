@@ -14,7 +14,7 @@ grab a clone:
 
 You will need to install dependencies using PEAR:
 
-    pear install Log
+    pear install Log HTTP
 
 You should also have memcached (and the php client library) installed and running:
 
